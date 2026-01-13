@@ -31,6 +31,9 @@ def main():
     # The filepath is relative to where main.py is located
     filepath = "data/disneyland_reviews.csv"
     data = process.load_data(filepath)
+
+    print("Dataset successfully loaded.")
+    print(f"Number of rows in dataset: {len(data)}")
     
     # Display confirmation message with row count
     if data:
