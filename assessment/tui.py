@@ -18,6 +18,10 @@ def display_welcome():
     print("=" * 60)
     print()
 
+    """This function displays a formatted welcome screen when the program starts, 
+    showing the system title and creating a clear, user-friendly introduction before 
+    """any processing begins.
+
 
 def display_main_menu():
     """
