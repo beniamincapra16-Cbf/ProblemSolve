@@ -1,5 +1,4 @@
 """
-This module contains classes for exporting data in various formats.
 It demonstrates Object-Oriented Programming (OOP) principles including:
 - Inheritance: Subclasses inherit from the base DataExporter class
 - Polymorphism: Different classes implement the same method (export) differently
