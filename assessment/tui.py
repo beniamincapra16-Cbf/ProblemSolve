@@ -157,7 +157,7 @@ def display_reviews(reviews):
     
     # Show first 5 reviews to avoid overwhelming the user
     # (The requirement asks to display all, but practically we might want to paginate)
-    # For this assessment, we'll just show them all but with a separator
+    # Each review includes the park name, rating, reviewer location,and date (if available), separated by clear dividers to improve readability.
     
     for i, review in enumerate(reviews, 1):
         print(f"Review #{i}")
