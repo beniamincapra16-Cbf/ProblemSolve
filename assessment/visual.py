@@ -1,6 +1,7 @@
 """
-This module is responsible for visualising the data using Matplotlib.
-Any visualisations should be generated via functions in this module.
+This module handles the creation of data visualisations using Matplotlib. 
+All visual outputs are produced through functions defined within this module, 
+ensuring a structured and consistent approach to visualisation.
 """
 import matplotlib.pyplot as plt
 
@@ -8,7 +9,6 @@ import matplotlib.pyplot as plt
 def plot_reviews_pie_chart(counts):
     """
     Create a pie chart showing the number of reviews per park.
-    
     What: Visualizes the proportion of reviews for each park
     Why: Task 10 requirement
     
