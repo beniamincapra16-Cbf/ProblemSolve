@@ -1,8 +1,11 @@
 """
-It demonstrates Object-Oriented Programming (OOP) principles including:
-- Inheritance: Subclasses inherit from the base DataExporter class
-- Polymorphism: Different classes implement the same method (export) differently
-- Encapsulation: Grouping related data and methods into classes
+It demonstrates key Object-Oriented Programming (OOP) principles, including:
+
+Inheritance: Subclasses extend and reuse functionality from the base DataExporter class.
+
+Polymorphism: Multiple subclasses provide their own implementations of the same export method.
+
+Encapsulation: Related data and behavior are bundled together within well-defined classes.
 """
 import csv
 import json
