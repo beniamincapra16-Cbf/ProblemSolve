@@ -30,20 +30,16 @@
 ## GitHub Evidence
 
 ### Recent Commits
-![Screenshot of recent commits](path/to/screenshot1.png)
-*(Please insert screenshot of recent commits from GitHub here)*
+<img width="2198" height="1148" alt="image" src="https://github.com/user-attachments/assets/4a4c724f-f2e6-4626-98b9-b5efb4da6579" />
 
-### Oldest Commits
-![Screenshot of oldest commits](path/to/screenshot2.png)
-*(Please insert screenshot of oldest commits from GitHub here)*
+
 
 ## PEP 8 Compliance
 
 **Status:** Code has been checked against PEP 8 standards.
-![Screenshot of PEP 8 check](path/to/pep8_screenshot.png)
-*(Please insert screenshot of PyCharm/Cursor linter results here)*
+![<img width="2448" height="1578" alt="image" src="https://github.com/user-attachments/assets/f95aa34c-fba5-4bbc-b630-ca821b3aa916" />
 
-## OOP Implementation (Task 14)
+
 
 ### Class Diagram
 
