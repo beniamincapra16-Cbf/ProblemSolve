@@ -39,33 +39,35 @@
 **Status:** Code has been checked against PEP 8 standards.
 ![<img width="2448" height="1578" alt="image" src="https://github.com/user-attachments/assets/f95aa34c-fba5-4bbc-b630-ca821b3aa916" />
 
+<img width="452" height="284" alt="image" src="https://github.com/user-attachments/assets/0233b2aa-a3be-4b0b-a965-7145362afdb2" />
+
+<img width="1120" height="398" alt="image" src="https://github.com/user-attachments/assets/31f80abc-c0a5-45b7-b726-3081d6078504" />
 
 
 ### Class Diagram
 
-```mermaid
 classDiagram
     class DataExporter {
         +export(data, filename)
         +prepare_aggregate_data(reviews_data)
     }
-    
+
     class TXTExporter {
         +export(data, filename)
     }
-    
+
     class CSVExporter {
         +export(data, filename)
     }
-    
+
     class JSONExporter {
         +export(data, filename)
     }
-    
+
     DataExporter <|-- TXTExporter
     DataExporter <|-- CSVExporter
     DataExporter <|-- JSONExporter
-```
+
 
 ### Explanation
 The export functionality uses a base class `DataExporter` which defines the interface. Specific export formats are implemented in subclasses (`TXTExporter`, `CSVExporter`, `JSONExporter`) which override the `export` method. This demonstrates polymorphism and inheritance.
